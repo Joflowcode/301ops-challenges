@@ -1,0 +1,15 @@
+#!/bin/bash
+
+# Script: Ops 301 Class 02 Ops Challenge Solution
+# Author: Jo Flow
+# Date of latest revision: 8/30/2022 
+# Purpose: Append; Date and Time
+
+# Main
+
+
+# Declare Variable
+
+cp /var/log/syslog 
+
+echo 
