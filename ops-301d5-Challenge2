@@ -9,6 +9,11 @@
 
 
 # Declare Variable
+# guide for various commands to append date/time
+    #https://www.cyberciti.biz/faq/unix-linux-appleosx-bsd-shell-appending-date-to-filename/ 
+
+currentdate = $(date + %m_%d_%Y)
+timenow=(date +)
 
 cp /var/log/syslog 
 
