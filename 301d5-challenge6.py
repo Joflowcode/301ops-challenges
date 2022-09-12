@@ -8,6 +8,8 @@
 
 # import the operating system library
 import os 
+import subprocess
+
 # import ipaddress
 
 # use the os.system to call a bash command (source lecture)
@@ -15,11 +17,10 @@ os.system("ls")
 
 print("This is introduction to using Python in bash")
 
+#using subprocess method/source https://geekflare.com/python-run-bash/
 
-
-# thisComputerIs = ipaddress
-
-
-# print(ipaddress) 
+import subprocess
+subprocess.run(["whoami"])
+print("This computer IP is `whoami` ")
 
 
