@@ -7,7 +7,6 @@
 
 
 # import the operating system library
-# import ipaddress
 import os 
 # import ipaddress
 
@@ -21,6 +20,6 @@ print("This is introduction to using Python in bash")
 # thisComputerIs = ipaddress
 
 
-# print(ipaddress)
+# print(ipaddress) 
 
 
