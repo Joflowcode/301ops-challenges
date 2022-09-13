@@ -9,28 +9,55 @@
 
 # variables 
 
-kids = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
-teenagers = [13, 14, 15, 16, 17, 18, 19, 20]
-adults = 21
 
-age = 0
+augustusAge = 4
+edwinAge = 1
+
+if augustusAge <= 1:
+    print("Augustus is a kitten!")
+
+else:
+    if augustusAge >= 2:
+        print("Augustus is not a kitten anymore. He's a big kitty now!")
+
+
+
+
+
+
+
+# Not Equals: a != b
+# Less than: a < b
+# Less than or equal to: a <= b
+# Greater than: a > b
+# Greater than or equal to: a >= b
+
+# Create an if statement using a logical conditional of your choice and include elif keyword that executes when other conditions are not met.
+
+# Create an if statement that includes both elif and else to execute when both if and elif are not met.
+
+## kids = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+## teenagers = [13, 14, 15, 16, 17, 18, 19, 20]
+## adults = 21
+
+## age = 0
 
 # Equals: a == b
 
-suzieQ = 10
-billyBob = 4
+## suzieQ = 10
+## billyBob = 4
 
-if age < 13:
-    print('This is the age of a kid')
+#if age < 13:
+    #print('This is the age of a kid')
 
-elif age > 12:
-    print('This is a teenager')
+#elif age > 12:
+    #print('This is a teenager')
 
-elif age > 20:
-    print('This is an adult')
+#elif age > 20:
+   # print('This is an adult')
 
-else:
-    print('Please input a valid number.')
+# else:
+    #print('Please input a valid number.')
 
 
 
