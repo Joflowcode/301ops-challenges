@@ -1,0 +1,1 @@
+This is a new text fileThis is how you open the file created with the file name and w command.This is how you open the file created with the file name and w command.
