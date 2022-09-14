@@ -5,7 +5,7 @@
 	<system>
 		<optimization>normal</optimization>
 		<hostname>vboxnet3pfSense</hostname>
-		<domain>home.arpa</domain>
+		<domain>ubuntulab.home.arpa</domain>
 		<dnsallowoverride>on</dnsallowoverride>
 		<group>
 			<name>all</name>
@@ -88,7 +88,7 @@
 		<lan>
 			<range>
 				<from>192.168.59.10</from>
-				<to>192.168.59.245</to>
+				<to>192.168.59.200</to>
 			</range>
 			<enable></enable>
 		</lan>

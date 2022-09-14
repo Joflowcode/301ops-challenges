@@ -8,18 +8,19 @@
 
 # create new text file
 
-import os  
+import os
+from pdb import line_prefix  
 os.mkdir("ops challenge 11")
 
 file = open("challenge11.txt", "w")
-file.write("This is a new text file")
+file.write("This file is to be deleted")
 file.close
 
-import subprocess
-subprocess.run(mv challenge1)
+## Need to figure out how to get mv process to work. import subprocess
+# subprocess.run("mv challenge11.txt /home/jo/ops/301ops-challenges/ops challenge 11")
 
 file = open("challenge11.txt", "a")
-file.write("This file is to be deleted.")
+file.write("This is a new text file.")
 file.close()
 
 file = open("challenge11.txt", "a")
@@ -30,26 +31,26 @@ file = open("challenge11.txt", "a")
 file.write("You can use import os and import subprocess in file handling as well.")
 file.close()
 
-file = open("challenge.txt", "r")
-print(file.readline())
+# this can be done with readline() for the first first line as well.
+import linecache
+lineRead = linecache.getline('challenge11.txt', 1)
+print(lineRead)
 
-
-
+# delete the text line.  source: https://www.w3schools.com/python/python_file_remove.asp
+import os
+os.remove("challenge11.txt")
 
 
 
 # Stretch goal. Export pfsense config, edit code, save under new file. Then import new configs to pfsense. 
 
+#opened config file in termnal and editor
 file = open("config-vboxnet3pfSense.xml", "r")
-print(file.read())
-
-file = open("newpfsenseconfigs.xml", "w")
 
 file = open("newpfsenseconfigs.xml", "a")
-file.write("These new config settings are updating file 'config-vboxnet3pfsense.xml. The domain name was updated and also address pool was changed.") 
+file.write("The second task ran in this script was updating the pfsense config files. These new config settings are updating file 'config-vboxnet3pfsense.xml. The domain name was updated and also address pool was changed.") 
+
+
+lineRead = linecache.getline('newpfsenseconfigs.xml', 289)
+print(lineRead)
 file.close()
-
-file = open("newpfsenseconfigs.xml")
-print(file.read())
-
-
