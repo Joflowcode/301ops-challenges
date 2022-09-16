@@ -10,17 +10,18 @@
 import os 
 import subprocess
 
-# import ipaddress
 
 # use the os.system to call a bash command (source lecture)
+import os
 os.system("ls")
+# print('ls /home/jobuntu/301ops-challenges')
+path = '/home/jobuntu/301ops-challenges'
 
-print("This is introduction to using Python in bash")
+print("This the list of all the contents in the 301ops challenge directory")
 
 #using subprocess method/source https://geekflare.com/python-run-bash/
 
 import subprocess
 subprocess.run(["whoami"])
-print("This computer IP is `whoami` ")
 
 
